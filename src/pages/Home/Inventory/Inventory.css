@@ -1,0 +1,21 @@
+.services-container h1 {
+   text-align: center;
+   font-weight: 700;
+   color:rgb(5, 45, 120);
+   font-size: 70px;
+}
+.services-container{
+   padding: 70px;
+   padding-top: 30px;
+}
+.service-container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+   .service-container{
+      grid-template-columns: repeat(1, 1fr);
+   }
+}

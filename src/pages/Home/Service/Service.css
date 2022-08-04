@@ -1,0 +1,27 @@
+.service{
+   border-radius: 3px;
+   text-align: center;
+   background-color:rgba(167, 152, 255, 0.114);
+   position: relative;
+}
+.service img{
+   border-radius: 3px;
+   width: 100%;
+}
+.service button {
+   position: absolute;
+   bottom: 0;
+   display: block;
+   width: 100%;
+   font-weight: 700;
+}
+.card-text p{
+   margin: 3px;
+   font-weight: 600;
+}
+.card-text h5{
+   font-weight: 700;
+}
+.card-text{
+   margin-bottom: 30px;
+}
