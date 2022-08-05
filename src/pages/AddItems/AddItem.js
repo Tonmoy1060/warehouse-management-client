@@ -13,7 +13,7 @@ const AddItem = () => {const submitButton = (event) => {
 
    event.target.reset();
 
-   fetch("http://localhost:5000/items", {
+   fetch("https://salty-bastion-99853.herokuapp.com/items", {
      method: "POST", // or 'PUT'
      headers: {
        "Content-Type": "application/json",

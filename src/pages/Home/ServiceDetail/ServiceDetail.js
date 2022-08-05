@@ -6,7 +6,7 @@ const ServiceDetail = () => {
    const params= useParams();
    const [user,setUser] = useState({});
    useEffect(()=>{
-      const url = `http://localhost:5000/items/${params.itemId}`
+      const url = `https://salty-bastion-99853.herokuapp.com/items/${params.itemId}`
       fetch(url)
       .then(res => res.json())
       .then(data => setUser(data))

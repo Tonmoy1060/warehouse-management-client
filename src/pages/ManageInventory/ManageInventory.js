@@ -7,7 +7,7 @@ const ManageInventory = () => {
    const deleteButton = (id) => {
       const confirm = window.confirm("Are you sure to delete this ?");
       if (confirm) {
-        fetch(`http://localhost:5000/items/${id}`, {
+        fetch(`https://salty-bastion-99853.herokuapp.com/items/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())
